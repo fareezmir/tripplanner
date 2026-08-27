@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: tripplanner
+  datasource:
+    url: jdbc:postgresql://localhost:5433/postgres
+    username: postgres
+    password: devpass
+  jpa:
+    hibernate:
+      ddl-auto: validate
