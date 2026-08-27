@@ -5,5 +5,7 @@ CREATE TABLE stop (
     latitude DOUBLE PRECISION NOT NULL,
     longitude DOUBLE PRECISION NOT NULL,
     dwell_minutes INTEGER NOT NULL,
-    dwell_source TEXT NOT NULL DEFAULT 'ESTIMATED'
+    dwell_source TEXT NOT NULL DEFAULT 'ESTIMATED',
+    earliest_start TIME,
+    latest_start TIME
 );
