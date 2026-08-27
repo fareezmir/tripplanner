@@ -1,0 +1,5 @@
+CREATE TABLE day (
+    id BIGSERIAL PRIMARY KEY,
+    leg_id BIGINT NOT NULL REFERENCES leg(id),
+    day_date DATE NOT NULL
+);
