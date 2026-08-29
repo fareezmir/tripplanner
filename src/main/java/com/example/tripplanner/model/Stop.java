@@ -1,4 +1,4 @@
-package com.example.tripplanner;
+package com.example.tripplanner.model;
 
 import jakarta.persistence.*;
 import java.time.LocalTime;
@@ -15,7 +15,7 @@ public class Stop {
     private Integer dwellMinutes;
     private String dwellSource;
     private LocalTime earliestStart;
-    private LocalTime latestStart;  
+    private LocalTime latestStart;
 
     @ManyToOne
     @JoinColumn(name = "day_id")

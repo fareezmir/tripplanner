@@ -1,4 +1,5 @@
-package com.example.tripplanner;
+package com.example.tripplanner.model;
+
 import jakarta.persistence.*;
 import java.time.LocalDate;
 

@@ -1,4 +1,5 @@
-package com.example.tripplanner;
+package com.example.tripplanner.model;
+
 import jakarta.persistence.*;
 import java.time.LocalDate;
 import java.time.LocalTime;
@@ -19,7 +20,7 @@ public class Day {
     private LocalTime startTime;
     private LocalTime latestEndTime;
     private Integer maxMinutesPerDay;
-    
+
     @ManyToOne
     @JoinColumn(name = "leg_id")
     private Leg leg;

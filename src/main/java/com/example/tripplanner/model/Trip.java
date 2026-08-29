@@ -1,4 +1,4 @@
-package com.example.tripplanner;
+package com.example.tripplanner.model;
 
 import jakarta.persistence.*;
 
