@@ -1,4 +1,6 @@
 spring:
+  profiles:
+    active: local
   application:
     name: tripplanner
   datasource:
@@ -8,6 +10,3 @@ spring:
   jpa:
     hibernate:
       ddl-auto: validate
-
-ors:
-  api-key: ${eyJvcmciOiI1YjNjZTM1OTc4NTExMTAwMDFjZjYyNDgiLCJpZCI6ImZkOGFhNjc5MzUwMDRiOTZhZjI0NDU3MmJkM2NlNzVkIiwiaCI6Im11cm11cjY0In0=}
