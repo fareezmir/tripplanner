@@ -13,6 +13,8 @@ public class Day {
     private Long id;
 
     private LocalDate dayDate;
+    private String startName;
+    private String endName;
     private Double startLat;
     private Double startLon;
     private Double endLat;
@@ -44,6 +46,22 @@ public class Day {
         this.dayDate = dayDate;
     }
 
+    public String getStartName() {
+        return startName;
+    }
+
+    public void setStartName(String startName) {
+        this.startName = startName;
+    }
+
+    public String getEndName() {
+        return endName;
+    }
+
+    public void setEndName(String endName) {
+        this.endName = endName;
+    }
+    
     public Double getStartLat() {
         return startLat;
     }

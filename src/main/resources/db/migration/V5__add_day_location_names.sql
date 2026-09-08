@@ -1,0 +1,2 @@
+ALTER TABLE day ADD COLUMN start_name TEXT;
+ALTER TABLE day ADD COLUMN end_name TEXT;
